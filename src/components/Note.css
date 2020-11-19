@@ -1,0 +1,21 @@
+.note {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.note h2 {
+    text-transform: uppercase;
+    background-color: #1280c5;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.note p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
