@@ -6,6 +6,7 @@
     border-radius: 10px;
     overflow: hidden;
     display: inline-block;
+    position: relative;
 }
 
 .note h2 {
@@ -18,4 +19,15 @@
 .note p {
     padding: 10px;
     font-size: 1.2rem;
+}
+
+.delete {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+    border: none;
+    cursor: pointer;
 }
